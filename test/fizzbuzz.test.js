@@ -1,9 +1,17 @@
 const fizzbuzz = require("../src/fizzbuzz");
 
-test("1 should return number 1", function() {
+it("1 should return number 1", function() {
   expect(fizzbuzz(1)).toEqual(1);
 });
 
-test.skip("3 should return fizz", function() {
+it("3 should return fizz", function() {
   expect(fizzbuzz(3)).toEqual("fizz");
+});
+
+it("5 should return buzz", function () {
+  expect(fizzbuzz(5)).toEqual("buzz");
+});
+
+it("15 should return fizzbuzz", function () {
+  expect(fizzbuzz(15)).toEqual("fizzbuzz");
 });
