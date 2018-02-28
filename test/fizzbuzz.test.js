@@ -15,3 +15,11 @@ it("5 should return buzz", function () {
 it("15 should return fizzbuzz", function () {
   expect(fizzbuzz(15)).toEqual("fizzbuzz");
 });
+
+it("20 should return buzz", function () {
+  expect(fizzbuzz(20)).toEqual("buzz");
+});
+
+it("9 should return buzz", function () {
+  expect(fizzbuzz(9)).toEqual("fizz");
+});
