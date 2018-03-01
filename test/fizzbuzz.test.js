@@ -23,3 +23,7 @@ it("20 should return buzz", function () {
 it("9 should return buzz", function () {
   expect(fizzbuzz(9)).toEqual("fizz");
 });
+
+it("7 should return 7", function () {
+  expect(fizzbuzz(7)).toEqual(7);
+});

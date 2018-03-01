@@ -13,6 +13,6 @@ test("3Camel should be kebabized to -camel", function() {
   expect(kebabize("3Camel")).toEqual("-camel");
 });
 
-test("3Camel3humps4Legs should be kebabized to -camel", function() {
-  expect(kebabize("3Camel3humps4Legs")).toEqual("-camelhumps-legs");
+test("3Camel30humps4Legs should be kebabized to -camel", function() {
+  expect(kebabize("3Camel301humps4Legs")).toEqual("-camelhumps-legs");
 });
